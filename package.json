@@ -1,0 +1,26 @@
+{
+  "name": "react-native-update-edoc2",
+  "author": "yongtian",
+  "email": "12338947@qq.com",
+  "bugs": {
+    "url": "https://github.com/tanyo520/react-native-update-app-edoc2/issues"
+  },
+  "description": "react native app硬更新升级，兼容 android 和 ios",
+  "homepage": "https://github.com/tanyo520/react-native-update-app-edoc2#readme",
+  "keywords": [
+    "react-native",
+    "react-native-update-app",
+    "react-native-app-update",
+    "react-native-app-upgrade"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanyo520/react-native-update-app-edoc2.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.11"
+}
