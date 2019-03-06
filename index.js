@@ -143,7 +143,7 @@ class RNUpdate extends Component {
             if(isManual){
                 RNUpdate.notice("已是最新版本",RNUpdateApp.appVersion);
             }
-            console.warn('react-native-update-app check update error', e);
+            console.warn('react-native-update-app-edoc2 check update error', e);
         }
     }
 

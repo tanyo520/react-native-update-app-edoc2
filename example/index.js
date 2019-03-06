@@ -3,7 +3,7 @@ import React, {Component} from "react"
 import {
     View,
 } from "react-native"
-import RNUpdate from "react-native-update-app"
+import RNUpdate from "react-native-update-app-edoc2"
 
 class _App extends Component {
 
