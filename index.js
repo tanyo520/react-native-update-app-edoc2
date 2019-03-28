@@ -94,7 +94,14 @@ class RNUpdate extends Component {
             }
 
 
-            if (version > RNUpdateApp.appVersion) {
+            //添加判断版本号的语句
+            let isOver=false;
+            let formatVersion=version.split('.')[0]+version.split('.')[1];
+            let appVersion=RNUpdateApp.appVersion.split('.')[0]+RNUpdateApp.appVersion.split('.')[1];
+            isOver=formatVersion>=appVersion;
+
+            //判断版本号
+            if (isOver) {
                 if(RNUpdateApp.getFileSize){
                     RNUpdateApp.getFileSize(this.fetchRes.url).then(async fileSize => {
                         let fileSizeBit = Number(fileSize);
