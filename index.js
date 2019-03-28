@@ -98,7 +98,7 @@ class RNUpdate extends Component {
             let isOver=false;
             let formatVersion=version.split('.')[0]+version.split('.')[1];
             let appVersion=RNUpdateApp.appVersion.split('.')[0]+RNUpdateApp.appVersion.split('.')[1];
-            isOver=formatVersion>=appVersion;
+            isOver=formatVersion>appVersion;
 
             //判断版本号
             if (isOver) {
